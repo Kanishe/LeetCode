@@ -34,6 +34,29 @@ public class Task1 {
         }
         System.out.println(Arrays.toString(arry));
 
+        System.out.println(arry.length);
+
+        int counter8 = 0;
+        for (int i = 0; i<arry.length;i++){
+            if (arry[i] >=8){
+                counter8 ++;
+            }
+            System.out.println(counter8);
+        }
+        int counter1 = 0;
+        for (int i = 0; i<arry.length;i++){
+            if (arry[i]==1){
+                counter1++;
+
+            }
+            System.out.println(counter1);
+        }
+        int sum = 0;
+        for(int i = 0;i<arry.length;i++){
+            sum = sum + arry[i];
+        }
+        System.out.println(sum);
+
     }
 
 }
