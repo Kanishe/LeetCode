@@ -1,6 +1,5 @@
 package day5.task1;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Locale;
 
