@@ -15,7 +15,8 @@ public class Student extends Human {
         super(name);
         this.groupName = groupName;
     }
-    public void printInfo(){
+
+    public void printInfo() {
         super.printInfo();
         System.out.println("This student with name - " + getName());
     }
