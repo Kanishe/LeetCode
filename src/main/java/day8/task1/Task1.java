@@ -9,8 +9,8 @@ public class Task1 {
             System.out.println();
             numbers += i + " ";
         }
-        long afrer = System.currentTimeMillis();
-        System.out.println("Millis " + (afrer - before));
+        long after = System.currentTimeMillis();
+        System.out.println("Millis " + (after - before));
         System.out.println(numbers);
 
         StringBuilder stringBuilder = new StringBuilder("");
